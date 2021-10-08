@@ -1,11 +1,11 @@
-import "./AddUser.css";
+import "./UpdateUser.css";
 
-export default function AddUser() {
+export default function UpdateUser() {
   return (
     <div className="FormContainer_AddUser">
       <div className="row">
         <div className="col">
-          <h4>Add User</h4>
+          <h4>Update User</h4>
         </div>
       </div>
       <div className="row">
@@ -112,7 +112,7 @@ export default function AddUser() {
       <div className="row">
         <div className="col">
           <button type="button" class="btn btn-outline-dark">
-            Save
+            Update
           </button>
         </div>
       </div>
